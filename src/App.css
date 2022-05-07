@@ -1,0 +1,13 @@
+.row {
+  display: flex;
+  padding: 10px;
+}
+
+.col {
+  flex: 33%;
+  margin: 10px;
+}
+
+.col > h2 {
+  height: 1.25rem;
+}

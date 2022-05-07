@@ -1,0 +1,17 @@
+.togglegrp_compact {
+  background-color: var(--secondary-bg-color);
+  border: 5px solid var(--secondary-bg-color);
+  border-radius: 10px;
+}
+
+.togglegrp_normal {
+  background-color: var(--secondary-bg-color);
+  border: 5px solid var(--group-color);
+  border-radius: 10px;
+}
+
+.togglegrp_normal .toggle,
+.togglegrp_compact .toggle {
+  margin-bottom: 0;
+  border-radius: 0;
+}

@@ -1,0 +1,34 @@
+.togglegroup {
+  position: relative;
+}
+
+.togglegroup > .toggle {
+  margin-right: 30px;
+}
+
+.togglegroup__accordion {
+  display: none;
+  background-color: var(--secondary-bg-color);
+  padding: 0 20px;
+}
+
+.togglegroup__accordion--active {
+  display: block;
+}
+
+.togglegroup__chevron {
+  width: 30px;
+  height: 30px;
+  background-color: inherit;
+  border: none;
+  background-image: url('../../images/chev_up.svg');
+  background-size: 30px;
+  transition: transform 0.1s;
+  position: absolute;
+  right: 5px;
+  top: 20px;
+}
+
+.togglegroup--active > .togglegroup__chevron {
+  transform: rotate(180deg);
+}
